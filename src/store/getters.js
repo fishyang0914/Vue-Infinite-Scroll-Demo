@@ -4,6 +4,9 @@ export default{
     },
     repo : state => {
         return state.repo;
+    },
+    updateFlag : state => {
+        return state.updateFlag;
     }
 
 }
